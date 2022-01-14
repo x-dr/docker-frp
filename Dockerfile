@@ -10,6 +10,10 @@ WORKDIR /app
 ADD . /app/ 
 
 
+RUN echo "======================" \
+    && uname -m \
+    && echo "======================" 
+
 RUN apk update -f \
     && apk upgrade \
     && apk --no-cache add -f tzdata \
