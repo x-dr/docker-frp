@@ -28,7 +28,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            gindex/frps
+            gindex/frp
           #  gindex/jdtool:latest
           #  ghcr.io/gindex/jdtool
           # flavor: |
